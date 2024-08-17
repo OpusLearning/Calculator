@@ -120,7 +120,12 @@ function handleInput(key) {
     }
     if (operand) {
       let result = performOperation(calcValue1, calcValue2, operand);
-      displayValue = result.toFixed(2);
+      if (result === "I'm sorry Dave...") {
+        displayValue = result;
+      } else {
+        displayValue = result.toFixed(2);
+      }
+
       displayCalcValue = `${calcValue1} ${operand} ${calcValue2} =`;
       calcValue1 = result;
       calcValue2 = null;
@@ -170,7 +175,7 @@ const mult = function (a, b) {
 
 const divide = function (a, b) {
   if (b === 0) {
-    return "Erm nope / 0";
+    return "I'm sorry Dave...";
   }
   return a / b;
 };
