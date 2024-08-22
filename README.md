@@ -29,10 +29,6 @@ Main Display: Shows the current input or result.
 Calculation Display: Keeps track of the ongoing calculation, displaying the formula as you build it.
 Colour-Coded Buttons
 
-To include a screenshot of the calculator in action, place calculator_grid.png in the same directory as this README and use the following Markdown to display it:
-
-markdown
-Copy code
 ![Calculator Grid Screenshot](./calc.png)
 This line of code will embed the screenshot right in your README, giving a visual preview of the calculator’s interface.
 
