@@ -1,4 +1,4 @@
-Calculator Grid README
+#Calculator 
 
 Welcome to the Calculator a fun and interactive calculator experience that brings back the  joy of pressing buttons, now with added colour and sound effects! 
 https://opuslearning.github.io/Calculator/
